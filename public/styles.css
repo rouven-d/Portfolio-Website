@@ -123,3 +123,104 @@ a:active {
   height: 650px;
   width: 650px;
 }
+
+/* About Me Section */
+#about {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  background-color: #eeeeee;
+}
+
+.about-h2 {
+  color: #222831;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 5%;
+}
+
+.about-p {
+  color: #393e46;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+/* Showcase Section */
+#showcase {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+  background-color: #eeeeee;
+}
+
+.showcase-h2 {
+  color: #222831;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 5%;
+}
+
+.showcase-underline {
+  width: 504px;
+  height: 0px;
+  color: #b55400;
+  background-color: #b55400;
+  border: 3px solid #b55400;
+}
+
+.project-h3 {
+  color: #222831;
+  font-size: 2.25rem;
+  font-weight: 600;
+  margin-top: 15%;
+}
+
+.project-p {
+  color: #393e46;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.project-code-button {
+  background-color: #b55400;
+  border-color: #b55400;
+  border-radius: 30px;
+  width: 220px;
+  height: 60px;
+  color: #eeeeee;
+  font-size: 1.5rem;
+  margin-right: 10%;
+}
+
+.project-code-button:hover {
+  background-color: #b55400;
+  border-color: #b55400;
+  opacity: 0.5;
+}
+
+.project-live-button {
+  background-color: #b55400;
+  border-color: #b55400;
+  border-radius: 30px;
+  width: 220px;
+  height: 60px;
+  color: #eeeeee;
+  font-size: 1.5rem;
+}
+
+.project-live-button:hover {
+  background-color: #b55400;
+  border-color: #b55400;
+  opacity: 0.5;
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+}
