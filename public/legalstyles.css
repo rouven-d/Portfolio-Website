@@ -1,0 +1,121 @@
+body {
+  font-family: "Spartan", sans-serif;
+  background-color: #393e46;
+}
+
+p {
+  line-height: 146%;
+  color: #eeeeee;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #eeeeee;
+  text-decoration: none;
+}
+
+h1 {
+  color: #eeeeee;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 5%;
+}
+
+h5 {
+  color: #eeeeee;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 2%;
+}
+
+/* Navbar/Header */
+.navbar {
+  height: 6rem;
+}
+
+.bg {
+  background-color: #222831;
+}
+
+.navbar-light .navbar-brand {
+  font-size: 2.25rem;
+  color: #eeeeee;
+  font-weight: 700;
+  margin-left: 3rem;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #eeeeee;
+  background-color: #eeeeee;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: auto 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #eeeeee;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #b55400;
+}
+
+.header-button {
+  background-color: #b55400;
+  border-color: #b55400;
+  border-radius: 30px;
+  width: 220px;
+  height: 60px;
+  color: #eeeeee;
+  font-size: 1.5rem;
+  margin-right: 3rem;
+}
+
+.header-button:hover {
+  background-color: #b55400;
+  border-color: #b55400;
+  opacity: 0.5;
+}
+
+/* Legal Section */
+#legal {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: left;
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  background-color: #222831;
+}
+
+.footer-link {
+  color: #eeeeee;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-info {
+  color: #eeeeee;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+}
