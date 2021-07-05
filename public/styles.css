@@ -1,6 +1,8 @@
 /* General  Selectors */
 body {
   font-family: "Spartan", sans-serif;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 h2 {
