@@ -3,8 +3,15 @@ body {
   font-family: "Spartan", sans-serif;
 }
 
+h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+}
+
 p {
   line-height: 146%;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 a,
@@ -13,6 +20,12 @@ a:focus,
 a:active {
   color: #eeeeee;
   text-decoration: none;
+}
+
+button:hover {
+  background-color: #b55400;
+  border-color: #b55400;
+  opacity: 0.5;
 }
 
 /* Navbar/Header */
@@ -61,12 +74,6 @@ a:active {
   margin-right: 3rem;
 }
 
-.header-button:hover {
-  background-color: #b55400;
-  border-color: #b55400;
-  opacity: 0.5;
-}
-
 /* Intro Section */
 #intro {
   width: 100%;
@@ -85,8 +92,6 @@ a:active {
 
 .intro-p {
   color: #eeeeee;
-  font-size: 1.5rem;
-  font-weight: 500;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -102,12 +107,6 @@ a:active {
   margin-right: 10%;
 }
 
-.mywork-button:hover {
-  background-color: #b55400;
-  border-color: #b55400;
-  opacity: 0.5;
-}
-
 .connect-button {
   background-color: #b55400;
   border-color: #b55400;
@@ -116,12 +115,6 @@ a:active {
   height: 60px;
   color: #eeeeee;
   font-size: 1.5rem;
-}
-
-.connect-button:hover {
-  background-color: #b55400;
-  border-color: #b55400;
-  opacity: 0.5;
 }
 
 .intro-svg {
@@ -140,15 +133,11 @@ a:active {
 
 .about-h2 {
   color: #222831;
-  font-size: 2.25rem;
-  font-weight: 700;
   margin-top: 5%;
 }
 
 .about-p {
   color: #393e46;
-  font-size: 1.5rem;
-  font-weight: 500;
   margin-top: 3%;
   margin-bottom: 5%;
 }
@@ -164,8 +153,6 @@ a:active {
 
 .showcase-h2 {
   color: #222831;
-  font-size: 2.25rem;
-  font-weight: 700;
   margin-top: 5%;
 }
 
@@ -186,8 +173,6 @@ a:active {
 
 .project-p {
   color: #393e46;
-  font-size: 1.5rem;
-  font-weight: 500;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -203,12 +188,6 @@ a:active {
   margin-right: 10%;
 }
 
-.project-code-button:hover {
-  background-color: #b55400;
-  border-color: #b55400;
-  opacity: 0.5;
-}
-
 .project-live-button {
   background-color: #b55400;
   border-color: #b55400;
@@ -217,12 +196,6 @@ a:active {
   height: 60px;
   color: #eeeeee;
   font-size: 1.5rem;
-}
-
-.project-live-button:hover {
-  background-color: #b55400;
-  border-color: #b55400;
-  opacity: 0.5;
 }
 
 .project-img {
@@ -240,8 +213,6 @@ a:active {
 
 .skills-h2 {
   color: #222831;
-  font-size: 2.25rem;
-  font-weight: 700;
   margin-top: 5%;
   margin-bottom: 3%;
 }
@@ -262,8 +233,6 @@ a:active {
 
 .icon-p {
   color: #eeeeee;
-  font-size: 1.2rem;
-  font-weight: 500;
 }
 
 /* Contact Me Section  */
@@ -276,16 +245,12 @@ a:active {
 
 .contact-h2 {
   color: #eeeeee;
-  font-size: 2.25rem;
-  font-weight: 700;
   margin-top: 20%;
   margin-bottom: 3%;
 }
 
 .contact-p {
   color: #eeeeee;
-  font-size: 1.5rem;
-  font-weight: 500;
   margin-top: 5%;
   margin-bottom: 15%;
 }
@@ -324,12 +289,6 @@ a:active {
   margin-top: auto;
 }
 
-.email-button:hover {
-  background-color: #b55400;
-  border-color: #b55400;
-  opacity: 0.5;
-}
-
 .icon-link {
   margin: auto 10px;
 }
@@ -364,6 +323,9 @@ a:active {
 
 /* Mobile Responsive */
 @media (max-width: 688px) {
+  .navbar-light .navbar-brand {
+    font-size: 1.5rem;
+  }
   /* Intro Section Mobile Responsiveness */
   #intro {
     text-align: center;
@@ -380,8 +342,8 @@ a:active {
     margin: 5% auto;
   }
   .intro-svg {
-    width: 450px;
-    height: 450px;
+    width: 100%;
+    height: 100%;
   }
   /* About Me Section Mobile Responsiveness */
   #about {
@@ -457,6 +419,17 @@ a:active {
 
 /* Responsiveness in between breakpoints */
 @media (max-width: 1138px) and (min-width: 892px) {
+  .navbar-light .navbar-brand {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .header-button {
+    margin-right: 1rem;
+  }
+  .intro-svg {
+    width: 100%;
+    height: 100%;
+  }
   .mywork-button {
     margin-top: 5%;
     margin-bottom: 5%;
@@ -472,5 +445,9 @@ a:active {
   .project-live-button {
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+  .icons-card {
+    width: 120px;
+    height: 180px;
   }
 }
