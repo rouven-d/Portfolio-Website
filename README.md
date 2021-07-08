@@ -2,6 +2,8 @@
 
 My personal website showcasing projects related to web development and a bit of background informationn about myself. Built in React. Designed in Figma.
 
+Deployed version can be [viewed here on Heroku](https://rouvensportfolio.herokuapp.com/)
+
 ## Structure
 
 - Navbar/Header
