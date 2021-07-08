@@ -22,3 +22,9 @@ Figma: [Design File](https://www.figma.com/file/uTPnapFjh7CMRnKuW3pbBk/Personal-
 - Light Gray: #393E46
 - Orange: #B55400
 - White: #EEEEEE
+
+## Built With
+
+- HTML
+- CSS
+- Node.js
