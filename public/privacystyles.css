@@ -85,7 +85,7 @@ h5 {
 }
 
 /* Legal Section */
-#legal {
+#privacy {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
@@ -94,13 +94,11 @@ h5 {
 
 /* Footer */
 #footer {
-  position: fixed;
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 5%;
   background-color: #222831;
-  bottom: 0;
 }
 
 .footer-link {
