@@ -92,6 +92,10 @@ h5 {
   text-align: left;
 }
 
+.legal-text {
+  padding-bottom: 15%;
+}
+
 /* Footer */
 #footer {
   position: fixed;
